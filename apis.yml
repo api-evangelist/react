@@ -1,0 +1,94 @@
+name: React
+description: A JavaScript library for building user interfaces
+image: https://reactjs.org/logo-og.png
+url: https://reactjs.org
+created: 2024-01-15 00:00:00+00:00
+modified: 2024-01-15 00:00:00+00:00
+specificationVersion: '0.18'
+tags:
+- JavaScript
+- UI Library
+- Frontend
+- Component-Based
+- Single Page Application
+- Web Development
+apis:
+- name: React DOM API
+  description: The react-dom package provides DOM-specific methods for React
+  image: https://reactjs.org/logo-og.png
+  humanUrl: https://reactjs.org/docs/react-dom.html
+  baseUrl: https://unpkg.com/react-dom@18/
+  tags:
+  - DOM
+  - Rendering
+  - Browser
+  properties:
+  - type: Documentation
+    url: https://reactjs.org/docs/getting-started.html
+  - type: API Reference
+    url: https://reactjs.org/docs/react-api.html
+  - type: GitHub Repository
+    url: https://github.com/facebook/react
+  - type: NPM Package
+    url: https://www.npmjs.com/package/react
+- name: React Core API
+  description: Core React library for building component-based user interfaces
+  image: https://reactjs.org/logo-og.png
+  humanUrl: https://reactjs.org/docs/react-api.html
+  baseUrl: https://unpkg.com/react@18/
+  tags:
+  - Components
+  - Hooks
+  - Core
+  properties:
+  - type: Documentation
+    url: https://reactjs.org/docs/react-api.html
+  - type: Hooks Reference
+    url: https://reactjs.org/docs/hooks-reference.html
+  - type: Component Reference
+    url: https://reactjs.org/docs/react-component.html
+  - type: Tutorial
+    url: https://reactjs.org/tutorial/tutorial.html
+- name: React Native API
+  description: Framework for building native mobile applications using React
+  image: https://reactnative.dev/img/header_logo.svg
+  humanUrl: https://reactnative.dev
+  baseUrl: https://reactnative.dev/
+  tags:
+  - Mobile
+  - iOS
+  - Android
+  - Native
+  properties:
+  - type: Documentation
+    url: https://reactnative.dev/docs/getting-started
+  - type: API Reference
+    url: https://reactnative.dev/docs/components-and-apis
+  - type: GitHub Repository
+    url: https://github.com/facebook/react-native
+  - type: NPM Package
+    url: https://www.npmjs.com/package/react-native
+maintainers:
+- name: Meta Open Source
+  twitter: https://twitter.com/reactjs
+  github: https://github.com/facebook
+  email: opensource@fb.com
+common:
+- type: Blog
+  url: https://reactjs.org/blog
+- type: Community
+  url: https://reactjs.org/community/support.html
+- type: Changelog
+  url: https://github.com/facebook/react/blob/main/CHANGELOG.md
+- type: Contributing Guide
+  url: https://reactjs.org/docs/how-to-contribute.html
+- type: Code of Conduct
+  url: https://github.com/facebook/react/blob/main/CODE_OF_CONDUCT.md
+- type: License
+  url: https://github.com/facebook/react/blob/main/LICENSE
+- type: Twitter
+  url: https://twitter.com/reactjs
+- type: Stack Overflow
+  url: https://stackoverflow.com/questions/tagged/reactjs
+- type: Discord
+  url: https://discord.gg/reactiflux
