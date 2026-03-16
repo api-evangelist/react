@@ -1,94 +1,53 @@
+aid: react
 name: React
-description: A JavaScript library for building user interfaces
+description: A JavaScript library for building user interfaces, maintained by Meta and the open source community.
+type: Index
 image: https://reactjs.org/logo-og.png
-url: https://reactjs.org
-created: 2024-01-15 00:00:00+00:00
-modified: 2024-01-15 00:00:00+00:00
-specificationVersion: '0.18'
+url: https://raw.githubusercontent.com/api-evangelist/react/refs/heads/main/apis.yml
 tags:
-- JavaScript
-- UI Library
-- Frontend
-- Component-Based
-- Single Page Application
-- Web Development
+  - JavaScript
+  - UI Library
+  - Frontend
+  - Component-Based
+  - Single Page Application
+  - Web Development
+created: '2024-01-15'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis:
-- name: React DOM API
-  description: The react-dom package provides DOM-specific methods for React
-  image: https://reactjs.org/logo-og.png
-  humanUrl: https://reactjs.org/docs/react-dom.html
-  baseUrl: https://unpkg.com/react-dom@18/
-  tags:
-  - DOM
-  - Rendering
-  - Browser
-  properties:
-  - type: Documentation
-    url: https://reactjs.org/docs/getting-started.html
-  - type: API Reference
-    url: https://reactjs.org/docs/react-api.html
-  - type: GitHub Repository
-    url: https://github.com/facebook/react
-  - type: NPM Package
-    url: https://www.npmjs.com/package/react
-- name: React Core API
-  description: Core React library for building component-based user interfaces
-  image: https://reactjs.org/logo-og.png
-  humanUrl: https://reactjs.org/docs/react-api.html
-  baseUrl: https://unpkg.com/react@18/
-  tags:
-  - Components
-  - Hooks
-  - Core
-  properties:
-  - type: Documentation
-    url: https://reactjs.org/docs/react-api.html
-  - type: Hooks Reference
-    url: https://reactjs.org/docs/hooks-reference.html
-  - type: Component Reference
-    url: https://reactjs.org/docs/react-component.html
-  - type: Tutorial
-    url: https://reactjs.org/tutorial/tutorial.html
-- name: React Native API
-  description: Framework for building native mobile applications using React
-  image: https://reactnative.dev/img/header_logo.svg
-  humanUrl: https://reactnative.dev
-  baseUrl: https://reactnative.dev/
-  tags:
-  - Mobile
-  - iOS
-  - Android
-  - Native
-  properties:
-  - type: Documentation
-    url: https://reactnative.dev/docs/getting-started
-  - type: API Reference
-    url: https://reactnative.dev/docs/components-and-apis
-  - type: GitHub Repository
-    url: https://github.com/facebook/react-native
-  - type: NPM Package
-    url: https://www.npmjs.com/package/react-native
-maintainers:
-- name: Meta Open Source
-  twitter: https://twitter.com/reactjs
-  github: https://github.com/facebook
-  email: opensource@fb.com
+  - aid: react:react-dom-api
+    name: React DOM API
+    description: The react-dom package provides DOM-specific methods for React
+    humanURL: https://react.dev/reference/react-dom
+    tags:
+      - DOM
+      - Rendering
+      - Browser
+    properties:
+      - type: Documentation
+        url: https://react.dev/reference/react-dom
+  - aid: react:react-core-api
+    name: React Core API
+    description: Core React library for building component-based user interfaces
+    humanURL: https://react.dev/reference/react
+    tags:
+      - Components
+      - Hooks
+      - Core
+    properties:
+      - type: Documentation
+        url: https://react.dev/reference/react
 common:
-- type: Blog
-  url: https://reactjs.org/blog
-- type: Community
-  url: https://reactjs.org/community/support.html
-- type: Changelog
-  url: https://github.com/facebook/react/blob/main/CHANGELOG.md
-- type: Contributing Guide
-  url: https://reactjs.org/docs/how-to-contribute.html
-- type: Code of Conduct
-  url: https://github.com/facebook/react/blob/main/CODE_OF_CONDUCT.md
-- type: License
-  url: https://github.com/facebook/react/blob/main/LICENSE
-- type: Twitter
-  url: https://twitter.com/reactjs
-- type: Stack Overflow
-  url: https://stackoverflow.com/questions/tagged/reactjs
-- type: Discord
-  url: https://discord.gg/reactiflux
+  - type: Website
+    url: https://react.dev/
+  - type: Documentation
+    url: https://react.dev/learn
+  - type: Blog
+    url: https://react.dev/blog
+  - type: Community
+    url: https://react.dev/community
+  - type: GitHubOrganization
+    url: https://github.com/facebook/react
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
