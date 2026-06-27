@@ -50,7 +50,7 @@ common:
     url: https://react.dev/community
   - type: GitHubOrganization
     url: https://github.com/facebook/react
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://react.dev/llms.txt
 maintainers:
   - FN: Kin Lane
