@@ -40,6 +40,8 @@ apis:
       - type: Documentation
         url: https://react.dev/reference/react
 common:
+  - type: DomainSecurity
+    url: security/react-domain-security.yml
   - type: Website
     url: https://react.dev/
   - type: Documentation
