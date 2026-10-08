@@ -63,6 +63,12 @@ apis:
       - type: Documentation
         url: https://react.dev/reference/react
 common:
+  - type: Plans
+    url: plans/react-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/react-rate-limits.yml
+  - type: FinOps
+    url: finops/react-finops.yml
   - type: DomainSecurity
     url: security/react-domain-security.yml
   - type: Website
